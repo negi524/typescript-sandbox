@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npx webpack --mode=development --watch",
     "build": "rm -rf dist && npx webpack",
+    "start": "npx webpack && node ./dist/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "npx prettier --write ./src/*"
   },

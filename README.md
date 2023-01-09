@@ -1,5 +1,6 @@
 # typescript-sandbox
-TypeScriptの実行環境
+
+TypeScript の実行環境
 
 ## 使い方
 
@@ -9,9 +10,14 @@ TypeScriptの実行環境
 npm run dev
 ```
 
-
 ### 本番用の成果物を作成
 
 ```bash
 npm run build
+```
+
+### トランスパイルしてそのまま実行
+
+```bash
+npm run start
 ```
